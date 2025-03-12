@@ -64,23 +64,11 @@ The SQL queries in this repository cover a variety of topics, including but not 
 3. **Joins**
    - Inner, left, right, and full joins between `orders`, `people`, and `returns`
 
-4. **Subqueries & Common Table Expressions (CTEs)**
-   - Writing subqueries in `WHERE`, `SELECT`, and `FROM` clauses
-   - Using `WITH` for readability
-
-5. **Window Functions**
+4. **Window Functions**
    - Ranking orders using `RANK()`, `DENSE_RANK()`, and `ROW_NUMBER()`
    - Running totals with `SUM() OVER()`
    - Moving averages with `AVG() OVER()`
 
-6. **Date & String Functions**
-   - Extracting year, month, and day from dates
-   - Manipulating strings using `SUBSTRING()`, `CONCAT()`, and `UPPER()/LOWER()`
-
-7. **Advanced Queries**
-   - Identifying top-selling products
-   - Finding customers with the highest lifetime value
-   - Analyzing return trends
 
 ## How to Use
 - Open an SQL environment (MySQL, PostgreSQL, SQL Server, etc.).
