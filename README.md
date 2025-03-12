@@ -65,9 +65,7 @@ The SQL queries in this repository cover a variety of topics, including but not 
    - Inner, left, right, and full joins between `orders`, `people`, and `returns`
 
 4. **Window Functions**
-   - Ranking orders using `RANK()`, `DENSE_RANK()`, and `ROW_NUMBER()`
-   - Running totals with `SUM() OVER()`
-   - Moving averages with `AVG() OVER()`
+   - LEAD, LAG, SUM()Over functions
 
 
 ## How to Use
