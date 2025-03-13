@@ -14,7 +14,7 @@ order by year(Order_date), month(Order_date)
 ) a 
 ;
 
-/* Calculate the total number of orders, without any returns */
+/* Calculate the total number of orders, without any returns per month*/
 
 
 SELECT year(`Order_Date`) AS Year,Month(Order_date) as Month, count(distinct o.`Order_ID`) as orders_without_returns
